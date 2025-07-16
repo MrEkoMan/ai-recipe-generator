@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npx amplify generate outputs",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
