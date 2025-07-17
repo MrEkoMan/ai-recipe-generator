@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    /*"prebuild": "npx ampx generate outputs",*/
     "build": "tsc -b && vite build",
     "postbuild": "npx ampx generate outputs --out-dir dist || true",
     "lint": "eslint .",
